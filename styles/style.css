@@ -213,12 +213,6 @@ main {
   background-size: cover;
 }
 
-.card_type_picture {
-  background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .card__title {
   position: relative;
   z-index: 1;
@@ -228,6 +222,12 @@ main {
   line-height: 1.2;
   text-decoration-line: underline;
   text-transform: uppercase;
+}
+
+.card_type_picture {
+  background-image: url(../images/card-lot-03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card__text {
